@@ -4,13 +4,24 @@ import { useState, useEffect, useRef } from "react";
 import images from "../images";
 
 const Slider = () => {
-  console.log(images);
+  const [width, setWidth] = useState(0);
+  const carousel = useRef();
+
+  useEffect(() => {
+    console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+  },[])
+
   return (
-    <motion.div className="carousel">
-      <motion.div drag="x"className="inner-carousel">
-        {images.map(image => {
+    <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>
+      <motion.div
+        drag="x"
+        dragConstraints={{ right: 0, left: -width }}
+        className="inner-carousel"
+      >
+        {images.map((image) => {
           return (
-            <motion.div className="item">
+            <motion.div className="item" key={image}>
               <img src={image} alt="" />
             </motion.div>
           );

@@ -5,13 +5,13 @@
 }
 
 body {
-  margin: 10% 20%;
+  margin: 5% auto;
 }
 
 .item {
-  min-height: 40rem;
-  min-width: 30rem;
-  padding: 40px;
+  min-height: 20rem;
+  min-width: 22rem;
+  padding: 30px;
 }
 
 .item img {
@@ -23,12 +23,9 @@ body {
 
 .inner-carousel {
   display: flex;
-  background: lightcyan;
 }
 
 .carousel {
   cursor:grab;
   overflow: hidden;
-  background: lightcoral;
-  border-radius: 2rem;
 }
