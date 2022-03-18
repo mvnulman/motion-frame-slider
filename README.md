@@ -52,7 +52,6 @@ https://localhost:3000
 ```
 <br>
 
-<br>
 
 # 📝 License
 
