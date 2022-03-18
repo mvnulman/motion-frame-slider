@@ -18,7 +18,6 @@ git clone https://github.com/mvnulman/motion-frame-slider.git
 
 ```
 
-
 1. Access the project folder.
 
 ```
@@ -52,7 +51,10 @@ https://localhost:3000
 ```
 <br>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 82587a7c5d99497f58e054487be655b01dc56052
 # 📝 License
 
 This project is licensed under [MIT](/LICENSE).
