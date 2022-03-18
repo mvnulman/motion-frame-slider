@@ -18,7 +18,6 @@ git clone https://github.com/mvnulman/motion-frame-slider.git
 
 ```
 
-
 1. Access the project folder.
 
 ```
@@ -50,8 +49,6 @@ npm start
 ```
 https://localhost:3000
 ```
-<br>
-
 <br>
 
 # 📝 License
