@@ -1610,10 +1610,10 @@
     "@testing-library/dom" "^8.0.0"
     "@types/react-dom" "*"
 
-"@testing-library/user-event@^14.6.8":
-  version "14.6.8"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.6.8.tgz#9433b5008d8aff4cdf60c177f5789ce32062b763"
-  integrity sha512-vgSSqnANMnkcYR/vUNDbwS7aM3OErRLNUG8vCVVlj4oc6cKffUrccX7UAS5AmJQQNZTSibi9z5GvvRZ0aYgUCQ==
+"@testing-library/user-event@^14.6.10":
+  version "14.6.10"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.6.10.tgz#f5f1ac7169bc425d743cea3a746048e94b9a06b8"
+  integrity sha512-tA4stGNp3mLGOGO+lh87UA56Tz4c8NVGBSkyIF58O+W/bs2Re9BCI9xihnL70+DsThncFznE0skS88SM1D2hyg==
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -4244,12 +4244,12 @@ fraction.js@^4.2.0:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.2.0.tgz#448e5109a313a3527f5a3ab2119ec4cf0e0e2950"
   integrity sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==
 
-framer-motion@^14.10.0:
-  version "14.10.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.10.0.tgz#491faaf47cdfd40dc34c50d61fe93e6b9ad9c1c5"
-  integrity sha512-e8MjIet+IJKohYxBj8TAk9Mg5cD0HiOX87qde1YTPL67gI2ao074O6yBtQnIcWCk+bTX7XX4litepufLiYPrLg==
+framer-motion@^14.13.0:
+  version "14.13.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.13.0.tgz#6ca9b9867a9a305db0be3c55d388d5edca1c8634"
+  integrity sha512-62FgGVeqEI3pgI5jG/d6yagg/hX9z7Vw3ytE0gGAsDXWBBruUCr74b5LQJXMSF1E62Zp7HKO88nDu/hhUdRSCQ==
   dependencies:
-    motion-dom "14.10.0"
+    motion-dom "14.13.0"
     motion-utils "14.7.0"
     tslib "^2.4.0"
 
@@ -5844,10 +5844,10 @@ mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-motion-dom@14.10.0:
-  version "14.10.0"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.10.0.tgz#280bde4507630f94f7fe6c82304b037b979541c3"
-  integrity sha512-k0LwJZ1R5xCvqrScszO4ywuZP52lRcT3QO0IUovgczom9ZHb0BaRLOX6M2O40q7TrSLvzX/fIHHmDm8TUMt3fg==
+motion-dom@14.13.0:
+  version "14.13.0"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.13.0.tgz#54a070fe06718182d5d1ea4a043593a762da5961"
+  integrity sha512-nWrB6Psw7mFTBNL9r5hw9nm/a5+21WZ1LymOml/V2b43LdiIDO1oi+oBMSR3bcyuzEQKJoaa+t5qnsCWYhcNvA==
   dependencies:
     motion-utils "14.7.0"
 
